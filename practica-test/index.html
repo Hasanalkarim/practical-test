@@ -5,10 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive card page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
+
+
+    <header>
+        <nav class="navbar">
+          <a class="logo" href="#">FoodShop<span>.</span></a>
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+      </header>
     <main>
-    
+        <section   class="cards" class="hero-section">
+          
+            <div class="content">
+                <h2>Search Your Meal</h2>
+        
+                <input id="searchBox"type="text"> <br> <br>
+               
+                <button onclick="connect()"> Show Meals</button> 
+
+                <button onclick="connectall()"> Show ALL</button>
+              </div>
+           
+        </section>
+
+        <section  id="card-items" class="cards">
+          
+          
+           
+        </section>
+
+
     </main>
+
+  
+
+    <section class="hero-section">
+       
+      </section>
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+  <div class="end-section">
+
+    <footer>
+      <div class="footer-col">
+          <h4>products</h4>
+          <ul class="ul-footer">
+              <li><a href="#">teams</a></li>
+              <li><a href="#">advertising</a></li>
+              <li><a href="#">talent</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h4>network</h4>
+          <ul class="ul-footer">
+              <li><a href="#">technology</a></li>
+              <li><a href="#">science</a></li>
+              <li><a href="#">business</a></li>
+              <li><a href="#">professional</a></li>
+              <li><a href="#">API</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h4>company</h4>
+          <ul class="ul-footer">
+              <li><a href="#">about</a></li>
+              <li><a href="#">legal</a></li>
+              <li><a href="#">contact us</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="footer-links">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+  </footer>
+
+      <script src="app.js"></script>
 </body>
 </html>
